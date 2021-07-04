@@ -1,12 +1,18 @@
 # SvelteKit Theme Switch
 
-A simple demo for theme switch in SvelteKit
+A simple demo for theme switch in SvelteKit.
 
 Uses:
 
 - Tailwind
-- DaisyUI
-- Theme Change
-- Tailwind Typography
+- [DaisyUI]
+- [Theme Change]
+- [Tailwind Typography]
 
-https://github.com/saadeghi/theme-change
+<!-- Links -->
+
+[tailwind]: https://tailwindcss.com/
+[daisyui]: https://daisyui.com/
+[theme change]: https://github.com/saadeghi/theme-change
+[tailwind typography]:
+  https://github.com/tailwindlabs/tailwindcss-typography
