@@ -1,28 +1,28 @@
-<div class="mt-5 mb-8">
+<div class="mb-8">
   <select
     data-choose-theme
-    class="select select-bordered select-primary w-full max-w-xs"
+    class="select select-bordered select-primary w-full max-w-3xl text-xl"
   >
-    <option value="light">Default</option>
-    <option value="dark">dark</option>
-    <option value="cupcake">cupcake</option>
-    <option value="bumblebee">bumblebee</option>
-    <option value="emerald">emerald</option>
-    <option value="corporate">corporate</option>
-    <option value="synthwave">synthwave</option>
-    <option value="retro">retro</option>
-    <option value="cyberpunk">cyberpunk</option>
-    <option value="valentine">valentine</option>
-    <option value="halloween">halloween</option>
-    <option value="garden">garden</option>
-    <option value="forest">forest</option>
-    <option value="aqua">aqua</option>
-    <option value="lofi">lofi</option>
-    <option value="pastel">pastel</option>
-    <option value="fantasy">fantasy</option>
-    <option value="wireframe">wireframe</option>
-    <option value="black">black</option>
-    <option value="luxury">luxury</option>
-    <option value="dracula">dracula</option>
+    <option value="cyberpunk">Cyberpunk</option>
+    <option value="light">Light</option>
+    <option value="dark">Dark</option>
+    <option value="cupcake">Cupcake</option>
+    <option value="bumblebee">Bumblebee</option>
+    <option value="emerald">Emerald</option>
+    <option value="corporate">Corporate</option>
+    <option value="synthwave">Synthwave</option>
+    <option value="retro">Retro</option>
+    <option value="valentine">Valentine</option>
+    <option value="halloween">Halloween</option>
+    <option value="garden">Garden</option>
+    <option value="forest">Forest</option>
+    <option value="aqua">Aqua</option>
+    <option value="lofi">Lofi</option>
+    <option value="pastel">Pastel</option>
+    <option value="fantasy">Fantasy</option>
+    <option value="wireframe">Wireframe</option>
+    <option value="black">Black</option>
+    <option value="luxury">Luxury</option>
+    <option value="dracula">Dracula</option>
   </select>
 </div>
