@@ -13,6 +13,8 @@
 
 <p>Typography is with the Tailwind Typography package.</p>
 
+<p>Default theme is set to light.</p>
+
 <ThemeSelect />
 
 <p>Here's some DaisyUI buttons, yummy!</p>
