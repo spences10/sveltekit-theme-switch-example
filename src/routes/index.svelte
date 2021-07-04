@@ -4,9 +4,18 @@
 
 <h1>SvelteKit Theme Switch</h1>
 
-<p>This is the theme switch package using DaisyUI</p>
+<p>
+  This is using the <a href="https://github.com/saadeghi/theme-change"
+    ><code>theme-change</code></a
+  >
+  package with <a href="https://daisyui.com/">DaisyUI</a>.
+</p>
+
+<p>Typography is with the Tailwind Typography package.</p>
 
 <ThemeSelect />
+
+<p>Here's some DaisyUI buttons, yummy!</p>
 
 <button class="btn">neutral</button>
 <button class="btn btn-primary">primary</button>
