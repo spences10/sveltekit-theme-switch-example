@@ -12,7 +12,7 @@
   data-choose-theme
   class="select select-bordered select-primary w-full max-w-xs"
 >
-  <option value="">Default</option>
+  <option value="light">Default</option>
   <option value="dark">dark</option>
   <option value="cupcake">cupcake</option>
   <option value="bumblebee">bumblebee</option>
@@ -35,4 +35,6 @@
   <option value="dracula">dracula</option>
 </select>
 
-<slot />
+<main>
+  <slot />
+</main>
