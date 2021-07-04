@@ -1,4 +1,15 @@
 @tailwind base;
 /* Write your global styles here, in PostCSS syntax */
+:root {
+  --my-color: white;
+  background-color: var(--my-color);
+}
+[data-theme='dark'] {
+  --my-color: black;
+}
+[data-theme='light'] {
+  --my-color: white;
+}
+
 @tailwind components;
 @tailwind utilities;
