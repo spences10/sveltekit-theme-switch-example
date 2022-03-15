@@ -1,12 +1,12 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/adapter-vercel': 1.0.0-next.46
+  '@sveltejs/adapter-vercel': 1.0.0-next.47
   '@sveltejs/kit': next
   '@tailwindcss/typography': 0.5.2
   autoprefixer: 10.4.2
   cssnano: 5.1.4
-  daisyui: 2.6.4
+  daisyui: 2.8.0
   postcss: 8.4.8
   postcss-load-config: 3.1.3
   prettier: 2.5.1
@@ -17,12 +17,12 @@ specifiers:
   theme-change: 2.0.2
 
 devDependencies:
-  '@sveltejs/adapter-vercel': 1.0.0-next.46
+  '@sveltejs/adapter-vercel': 1.0.0-next.47
   '@sveltejs/kit': 1.0.0-next.297_svelte@3.46.4
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.23
   autoprefixer: 10.4.2_postcss@8.4.8
   cssnano: 5.1.4_postcss@8.4.8
-  daisyui: 2.6.4_554c024960c0d85659bdf1e5e950b7f7
+  daisyui: 2.8.0_554c024960c0d85659bdf1e5e950b7f7
   postcss: 8.4.8
   postcss-load-config: 3.1.3
   prettier: 2.5.1
@@ -84,8 +84,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.46:
-    resolution: {integrity: sha512-6Rwf3kZF6uX2JxDMoYgZWZe5TjVTTWZa57VukdNGjnlAT3CrfsEOBWyskX/8hx7AiYX5fucZaAtYPNZpUmueIA==}
+  /@sveltejs/adapter-vercel/1.0.0-next.47:
+    resolution: {integrity: sha512-VV3vP8KqL9XOc7xfQLVhXTM5jrTme+r1qJy98u5/dhAhkdjqrGDwAKo/s7MoB3rTYxLb2b8I4QxAaoz2Y2aIBg==}
     dependencies:
       esbuild: 0.14.27
     dev: true
@@ -496,8 +496,8 @@ packages:
       css-tree: 1.1.3
     dev: true
 
-  /daisyui/2.6.4_554c024960c0d85659bdf1e5e950b7f7:
-    resolution: {integrity: sha512-3l7WHgpOTdyUBVu2TD6uZH4+IbwaBnPXdoWjjvmzT6hxR5+WUHMl4vvPP+7/VB+CcoxSB296qaYWXQcoWcbISw==}
+  /daisyui/2.8.0_554c024960c0d85659bdf1e5e950b7f7:
+    resolution: {integrity: sha512-AU6JH6X5PI3ejM/w/1TdrWlyVGd7MgCweTCWVzmGvt5awoDSllg9fcsyXTfB48eDMRKUZ3IUC4KZv0Wde7MXjA==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
