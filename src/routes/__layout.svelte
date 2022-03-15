@@ -1,9 +1,9 @@
 <script>
   import { onMount } from 'svelte'
   import { themeChange } from 'theme-change'
-  import '../app.postcss'
+  import '../app.css'
 
-  onMount(async () => {
+  onMount(() => {
     themeChange(false)
   })
 </script>
