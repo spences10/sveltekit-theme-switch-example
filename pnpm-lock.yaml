@@ -4,7 +4,7 @@ specifiers:
   '@sveltejs/adapter-vercel': 1.0.0-next.47
   '@sveltejs/kit': next
   '@tailwindcss/typography': 0.5.2
-  autoprefixer: 10.4.2
+  autoprefixer: 10.4.4
   cssnano: 5.1.4
   daisyui: 2.8.0
   postcss: 8.4.12
@@ -18,18 +18,18 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-vercel': 1.0.0-next.47
-  '@sveltejs/kit': 1.0.0-next.298_svelte@3.46.4
+  '@sveltejs/kit': 1.0.0-next.301_svelte@3.46.4
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.23
-  autoprefixer: 10.4.2_postcss@8.4.12
+  autoprefixer: 10.4.4_postcss@8.4.12
   cssnano: 5.1.4_postcss@8.4.12
-  daisyui: 2.8.0_5b85c1fed7ef071ac62242eeecc934d8
+  daisyui: 2.8.0_081650f2f4dba35b17265937ab2a2ec0
   postcss: 8.4.12
   postcss-load-config: 3.1.3
   prettier: 2.6.0
   prettier-plugin-svelte: 2.6.0_prettier@2.6.0+svelte@3.46.4
   svelte: 3.46.4
   svelte-preprocess: 4.10.4_116eeb6b28be41779e5e81ff686c3b09
-  tailwindcss: 3.0.23_autoprefixer@10.4.2
+  tailwindcss: 3.0.23_autoprefixer@10.4.4
   theme-change: 2.0.2
 
 packages:
@@ -90,8 +90,8 @@ packages:
       esbuild: 0.14.27
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.298_svelte@3.46.4:
-    resolution: {integrity: sha512-HUna2KgBc9NdeSCAqZBo6NUuRHab1tRMW6O3OtLvPs7ldSY+cEarDmUJb1ZeHwPrbcS2RTHSnBNNc0l+UyiFIw==}
+  /@sveltejs/kit/1.0.0-next.301_svelte@3.46.4:
+    resolution: {integrity: sha512-F/XP1VEu+fpvgY04JekNxAFupccNMKOyXtbox0LwNJvBulL15/Tzy6tf4g+9t2Jy7mprwI3h0ZC9G/nVujRFnQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -139,7 +139,7 @@ packages:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
-      tailwindcss: 3.0.23_autoprefixer@10.4.2
+      tailwindcss: 3.0.23_autoprefixer@10.4.4
     dev: true
 
   /@trysound/sax/0.2.0:
@@ -210,14 +210,14 @@ packages:
     resolution: {integrity: sha512-e0hDa9H2Z9AwFkk2qDlwhoMYE4eToKarchkQHovNdLTCYMHZHeRjI71crOh+dio4K6u1IcwubQqo79Ga4CyAQA==}
     dev: true
 
-  /autoprefixer/10.4.2_postcss@8.4.12:
-    resolution: {integrity: sha512-9fOPpHKuDW1w/0EKfRmVnxTDt8166MAnLI3mgZ1JCnhNtYWxcJ6Ud5CO/AVOZi/AvFa8DY9RTy3h3+tFBlrrdQ==}
+  /autoprefixer/10.4.4_postcss@8.4.12:
+    resolution: {integrity: sha512-Tm8JxsB286VweiZ5F0anmbyGiNI3v3wGv3mz9W+cxEDYB/6jbnj6GM9H9mK3wIL8ftgl+C07Lcwb8PG5PCCPzA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
-      browserslist: 4.20.0
+      browserslist: 4.20.2
       caniuse-lite: 1.0.30001317
       fraction.js: 4.2.0
       normalize-range: 0.1.2
@@ -253,8 +253,8 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /browserslist/4.20.0:
-    resolution: {integrity: sha512-bnpOoa+DownbciXj0jVGENf8VYQnE2LNWomhYuCsMmmx9Jd9lwq0WXODuwpSsp8AVdKM2/HorrzxAfbKvWTByQ==}
+  /browserslist/4.20.2:
+    resolution: {integrity: sha512-CQOBCqp/9pDvDbx3xfMi+86pr4KXIf2FDkTTdeuYw8OxS9t898LA1Khq57gtufFILXpfgsSx5woNgsBgvGjpsA==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
@@ -282,7 +282,7 @@ packages:
   /caniuse-api/3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
-      browserslist: 4.20.0
+      browserslist: 4.20.2
       caniuse-lite: 1.0.30001317
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
@@ -496,18 +496,18 @@ packages:
       css-tree: 1.1.3
     dev: true
 
-  /daisyui/2.8.0_5b85c1fed7ef071ac62242eeecc934d8:
+  /daisyui/2.8.0_081650f2f4dba35b17265937ab2a2ec0:
     resolution: {integrity: sha512-AU6JH6X5PI3ejM/w/1TdrWlyVGd7MgCweTCWVzmGvt5awoDSllg9fcsyXTfB48eDMRKUZ3IUC4KZv0Wde7MXjA==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
     dependencies:
-      autoprefixer: 10.4.2_postcss@8.4.12
+      autoprefixer: 10.4.4_postcss@8.4.12
       color: 4.2.1
       css-selector-tokenizer: 0.8.0
       postcss: 8.4.12
       postcss-js: 4.0.0_postcss@8.4.12
-      tailwindcss: 3.0.23_autoprefixer@10.4.2
+      tailwindcss: 3.0.23_autoprefixer@10.4.4
     transitivePeerDependencies:
       - ts-node
     dev: true
@@ -1163,7 +1163,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.20.0
+      browserslist: 4.20.2
       caniuse-api: 3.0.0
       colord: 2.9.2
       postcss: 8.4.12
@@ -1256,7 +1256,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.20.0
+      browserslist: 4.20.2
       caniuse-api: 3.0.0
       cssnano-utils: 3.1.0_postcss@8.4.12
       postcss: 8.4.12
@@ -1291,7 +1291,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.20.0
+      browserslist: 4.20.2
       cssnano-utils: 3.1.0_postcss@8.4.12
       postcss: 8.4.12
       postcss-value-parser: 4.2.0
@@ -1382,7 +1382,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.20.0
+      browserslist: 4.20.2
       postcss: 8.4.12
       postcss-value-parser: 4.2.0
     dev: true
@@ -1425,7 +1425,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.20.0
+      browserslist: 4.20.2
       caniuse-api: 3.0.0
       postcss: 8.4.12
     dev: true
@@ -1617,7 +1617,7 @@ packages:
     peerDependencies:
       postcss: ^8.2.15
     dependencies:
-      browserslist: 4.20.0
+      browserslist: 4.20.2
       postcss: 8.4.12
       postcss-selector-parser: 6.0.9
     dev: true
@@ -1721,7 +1721,7 @@ packages:
       stable: 0.1.8
     dev: true
 
-  /tailwindcss/3.0.23_autoprefixer@10.4.2:
+  /tailwindcss/3.0.23_autoprefixer@10.4.4:
     resolution: {integrity: sha512-+OZOV9ubyQ6oI2BXEhzw4HrqvgcARY38xv3zKcjnWtMIZstEsXdI9xftd1iB7+RbOnj2HOEzkA0OyB5BaSxPQA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
@@ -1729,7 +1729,7 @@ packages:
       autoprefixer: ^10.0.2
     dependencies:
       arg: 5.0.1
-      autoprefixer: 10.4.2_postcss@8.4.12
+      autoprefixer: 10.4.4_postcss@8.4.12
       chalk: 4.1.2
       chokidar: 3.5.3
       color-name: 1.1.4
