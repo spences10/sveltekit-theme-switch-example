@@ -9,7 +9,7 @@ specifiers:
   daisyui: 2.13.4
   postcss: 8.4.12
   postcss-load-config: 3.1.4
-  prettier: 2.6.1
+  prettier: 2.6.2
   prettier-plugin-svelte: 2.6.0
   svelte: 3.46.6
   svelte-preprocess: 4.10.4
@@ -18,15 +18,15 @@ specifiers:
 
 devDependencies:
   '@sveltejs/adapter-vercel': 1.0.0-next.47
-  '@sveltejs/kit': 1.0.0-next.303_svelte@3.46.6
+  '@sveltejs/kit': 1.0.0-next.304_svelte@3.46.6
   '@tailwindcss/typography': 0.5.2_tailwindcss@3.0.23
   autoprefixer: 10.4.4_postcss@8.4.12
   cssnano: 5.1.5_postcss@8.4.12
   daisyui: 2.13.4_081650f2f4dba35b17265937ab2a2ec0
   postcss: 8.4.12
   postcss-load-config: 3.1.4_postcss@8.4.12
-  prettier: 2.6.1
-  prettier-plugin-svelte: 2.6.0_prettier@2.6.1+svelte@3.46.6
+  prettier: 2.6.2
+  prettier-plugin-svelte: 2.6.0_prettier@2.6.2+svelte@3.46.6
   svelte: 3.46.6
   svelte-preprocess: 4.10.4_0a0033d5867bac6f6a8828d3bfcd02f8
   tailwindcss: 3.0.23_autoprefixer@10.4.4
@@ -90,17 +90,17 @@ packages:
       esbuild: 0.14.27
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.303_svelte@3.46.6:
-    resolution: {integrity: sha512-WdxDc8OiF1WEd/bEza7CBdzA+3qIcCi1GKBj/gieKX9I3N8iDJt/Cg2POrLo9wQoJ47nZcAd1eOhfr7XEX1aIQ==}
+  /@sveltejs/kit/1.0.0-next.304_svelte@3.46.6:
+    resolution: {integrity: sha512-3+bCoDsF2Omolx51lK6+4Zgr8NYge8USxKpZpAg8OfonEW8L4GToyV4g+udLMCI3CC4QEw3eS1RFUj9UxLf2NQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
       svelte: ^3.44.0
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 1.0.0-next.39_svelte@3.46.6+vite@2.8.6
+      '@sveltejs/vite-plugin-svelte': 1.0.0-next.39_svelte@3.46.6+vite@2.9.1
       sade: 1.8.1
       svelte: 3.46.6
-      vite: 2.8.6
+      vite: 2.9.1
     transitivePeerDependencies:
       - diff-match-patch
       - less
@@ -109,7 +109,7 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/vite-plugin-svelte/1.0.0-next.39_svelte@3.46.6+vite@2.8.6:
+  /@sveltejs/vite-plugin-svelte/1.0.0-next.39_svelte@3.46.6+vite@2.9.1:
     resolution: {integrity: sha512-gnvvcAW2LK+KnUn8lKb2ypcXKwSp2K57mem5C4VNKfjxdRpM6+XwNavWwVf6otnDhz3qPYl/TKKW6/dRr6eeAw==}
     engines: {node: ^14.13.1 || >= 16}
     peerDependencies:
@@ -126,7 +126,7 @@ packages:
       magic-string: 0.25.9
       svelte: 3.46.6
       svelte-hmr: 0.14.11_svelte@3.46.6
-      vite: 2.8.6
+      vite: 2.9.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1491,18 +1491,18 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /prettier-plugin-svelte/2.6.0_prettier@2.6.1+svelte@3.46.6:
+  /prettier-plugin-svelte/2.6.0_prettier@2.6.2+svelte@3.46.6:
     resolution: {integrity: sha512-NPSRf6Y5rufRlBleok/pqg4+1FyGsL0zYhkYP6hnueeL1J/uCm3OfOZPsLX4zqD9VAdcXfyEL2PYqGv8ZoOSfA==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
     dependencies:
-      prettier: 2.6.1
+      prettier: 2.6.2
       svelte: 3.46.6
     dev: true
 
-  /prettier/2.6.1:
-    resolution: {integrity: sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==}
+  /prettier/2.6.2:
+    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -1782,8 +1782,8 @@ packages:
     resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
     dev: true
 
-  /vite/2.8.6:
-    resolution: {integrity: sha512-e4H0QpludOVKkmOsRyqQ7LTcMUDF3mcgyNU4lmi0B5JUbe0ZxeBBl8VoZ8Y6Rfn9eFKYtdXNPcYK97ZwH+K2ug==}
+  /vite/2.9.1:
+    resolution: {integrity: sha512-vSlsSdOYGcYEJfkQ/NeLXgnRv5zZfpAsdztkIrs7AZHV8RCMZQkwjo4DS5BnrYTqoWqLoUe1Cah4aVO4oNNqCQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
