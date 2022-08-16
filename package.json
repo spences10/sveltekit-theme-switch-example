@@ -13,7 +13,7 @@
     "@sveltejs/kit": "next",
     "@tailwindcss/typography": "0.5.4",
     "autoprefixer": "10.4.8",
-    "cssnano": "5.1.12",
+    "cssnano": "5.1.13",
     "daisyui": "2.24.0",
     "postcss": "8.4.16",
     "postcss-load-config": "4.0.1",
