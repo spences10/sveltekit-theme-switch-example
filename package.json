@@ -15,7 +15,7 @@
     "autoprefixer": "10.4.12",
     "cssnano": "5.1.13",
     "daisyui": "2.31.0",
-    "postcss": "8.4.16",
+    "postcss": "8.4.17",
     "postcss-load-config": "4.0.1",
     "prettier": "2.7.1",
     "prettier-plugin-svelte": "2.7.0",
