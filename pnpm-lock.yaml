@@ -20,7 +20,7 @@ specifiers:
   svelte-check: ^3.0.1
   svelte-preprocess: 5.0.1
   tailwindcss: 3.2.7
-  theme-change: 2.3.0
+  theme-change: 2.4.0
   tslib: ^2.4.1
   typescript: ^4.9.4
   vite: 4.1.4
@@ -45,7 +45,7 @@ devDependencies:
   svelte-check: 3.0.1_gqx7lw3sljhsd4bstor5m2aa2u
   svelte-preprocess: 5.0.1_awginupsaj455aehf5x365sh44
   tailwindcss: 3.2.7_postcss@8.4.21
-  theme-change: 2.3.0
+  theme-change: 2.4.0
   tslib: 2.4.1
   typescript: 4.9.4
   vite: 4.1.4
@@ -2457,8 +2457,8 @@ packages:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
     dev: true
 
-  /theme-change/2.3.0:
-    resolution: {integrity: sha512-MOv3g4dQfte9Q7WZKyLRshcw9JqcJCwB+CO1OS7lN1WMJcQyPzmpgwm5Ve55vQ4qt62g++A9+8s1x+vRPpm42w==}
+  /theme-change/2.4.0:
+    resolution: {integrity: sha512-HbMckoxM7sV8L7wk53S5ceiBQWcTxFozuvUmvjdjPqpyVFkzPQHylSsDHYyT8qTruORe+1Sft7ExqlXQEeWHBA==}
     dev: true
 
   /tiny-glob/0.2.9:
