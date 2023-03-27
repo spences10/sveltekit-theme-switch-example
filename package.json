@@ -17,7 +17,7 @@
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
     "autoprefixer": "10.4.14",
-    "cssnano": "5.1.15",
+    "cssnano": "6.0.0",
     "daisyui": "2.51.5",
     "eslint": "^8.31.0",
     "eslint-config-prettier": "^8.6.0",
