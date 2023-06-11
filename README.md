@@ -15,4 +15,4 @@ Uses:
 [daisyui]: https://daisyui.com/
 [theme change]: https://github.com/saadeghi/theme-change
 [tailwind typography]:
-  https://github.com/tailwindlabs/tailwindcss-typography
+	https://github.com/tailwindlabs/tailwindcss-typography

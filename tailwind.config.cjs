@@ -1,5 +1,10 @@
+const daisyui = require('daisyui')
+const typography = require('@tailwindcss/typography')
+
+/** @type {import('tailwindcss').Config}*/
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
+
 	theme: {
 		extend: {},
 	},
@@ -8,7 +13,7 @@ const config = {
 		themes: true,
 	},
 
-	plugins: [require('@tailwindcss/typography'), require('daisyui')],
+	plugins: [typography, daisyui],
 }
 
 module.exports = config

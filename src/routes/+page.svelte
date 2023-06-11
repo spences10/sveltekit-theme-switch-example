@@ -1,14 +1,14 @@
 <script>
-  import ThemeSelect from '$lib/theme-select.svelte'
+	import ThemeSelect from '$lib/theme-select.svelte'
 </script>
 
 <h1>SvelteKit Theme Switch</h1>
 
 <p>
-  This is using the <a href="https://github.com/saadeghi/theme-change"
-    ><code>theme-change</code></a
-  >
-  package with <a href="https://daisyui.com/">DaisyUI</a>.
+	This is using the <a href="https://github.com/saadeghi/theme-change"
+		><code>theme-change</code></a
+	>
+	package with <a href="https://daisyui.com/">DaisyUI</a>.
 </p>
 
 <p>Typography is with the Tailwind Typography package.</p>
@@ -27,6 +27,6 @@
 <button class="btn btn-link">link</button>
 
 <p>
-  Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the
-  documentation
+	Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the
+	documentation
 </p>
