@@ -1,41 +1,22 @@
 <script lang="ts">
-	const themes = [
-		'acid',
-		'aqua',
-		'autumn',
-		'black',
-		'bumblebee',
-		'business',
-		'cmyk',
-		'coffee',
-		'corporate',
-		'cupcake',
-		'cyberpunk',
-		'dark',
-		'dracula',
-		'emerald',
-		'fantasy',
-		'forest',
-		'garden',
-		'halloween',
-		'lemonade',
-		'light',
-		'lofi',
-		'luxury',
-		'night',
-		'pastel',
-		'retro',
-		'synthwave',
-		'valentine',
-		'winter',
-		'wireframe',
-	]
+	import { themes } from './themes'
+
+	function set_theme(event: Event) {
+		const select = event.target as HTMLSelectElement
+		const theme = select.value
+		if (themes.includes(theme)) {
+			const one_year = 60 * 60 * 24 * 365
+			document.cookie = `theme=${theme}; max-age=${one_year}; path=/`
+			document.documentElement.setAttribute('data-theme', theme)
+		}
+	}
 </script>
 
 <div class="mb-8">
 	<select
 		data-choose-theme
 		class="select select-bordered select-primary w-full max-w-3xl text-xl capitalize"
+		on:change={set_theme}
 	>
 		<option disabled selected>Choose a theme</option>
 		{#each themes as theme}
