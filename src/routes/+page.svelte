@@ -5,15 +5,17 @@
 <h1>SvelteKit Theme Switch</h1>
 
 <p>
-	This is using the <a href="https://github.com/saadeghi/theme-change"
-		><code>theme-change</code></a
+	This is using a <a
+		href="https://scriptraccoon.dev/blog/darkmode-toggle-sveltekit#bonus"
 	>
-	package with <a href="https://daisyui.com/">DaisyUI</a>.
+		cookie based theme change
+	</a>
+	with <a href="https://daisyui.com/">daisyUI</a> for the themes.
 </p>
 
 <p>Typography is with the Tailwind Typography package.</p>
 
-<p>Default theme is set to light.</p>
+<p>Default theme is set to dark.</p>
 
 <ThemeSelect />
 
