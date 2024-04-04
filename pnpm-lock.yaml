@@ -19,7 +19,7 @@ devDependencies:
     version: 3.0.2(svelte@4.2.12)(vite@5.2.8)
   '@tailwindcss/typography':
     specifier: ^0.5.10
-    version: 0.5.11(tailwindcss@3.4.3)
+    version: 0.5.12(tailwindcss@3.4.3)
   '@typescript-eslint/eslint-plugin':
     specifier: ^7.0.0
     version: 7.2.0(@typescript-eslint/parser@7.2.0)(eslint@8.57.0)(typescript@5.4.3)
@@ -647,8 +647,8 @@ packages:
       - supports-color
     dev: true
 
-  /@tailwindcss/typography@0.5.11(tailwindcss@3.4.3):
-    resolution: {integrity: sha512-ahOULqBQGCdSqL3vMNjH1R5cU2gxTh059fJIKF2enHXE8c/s3yKGDSKZ1+4poCr7BZRREJS8n5cCFmwsW4Ok3A==}
+  /@tailwindcss/typography@0.5.12(tailwindcss@3.4.3):
+    resolution: {integrity: sha512-CNwpBpconcP7ppxmuq3qvaCxiRWnbhANpY/ruH4L5qs2GCiVDJXde/pjj2HWPV1+Q4G9+V/etrwUYopdcjAlyg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
