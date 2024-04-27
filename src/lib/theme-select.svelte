@@ -1,28 +1,28 @@
 <script lang="ts">
-	import { onMount } from 'svelte'
-	import { themes } from './themes'
+	import { onMount } from 'svelte';
+	import { themes } from './themes';
 
-	let current_theme = ''
+	let current_theme = '';
 
 	onMount(() => {
 		if (typeof window !== 'undefined') {
-			const theme = window.localStorage.getItem('theme')
+			const theme = window.localStorage.getItem('theme');
 			if (theme && themes.includes(theme)) {
-				document.documentElement.setAttribute('data-theme', theme)
-				current_theme = theme
+				document.documentElement.setAttribute('data-theme', theme);
+				current_theme = theme;
 			}
 		}
-	})
+	});
 
 	function set_theme(event: Event) {
-		const select = event.target as HTMLSelectElement
-		const theme = select.value
+		const select = event.target as HTMLSelectElement;
+		const theme = select.value;
 		if (themes.includes(theme)) {
-			const one_year = 60 * 60 * 24 * 365
-			window.localStorage.setItem('theme', theme)
-			document.cookie = `theme=${theme}; max-age=${one_year}; path=/; SameSite=Lax`
-			document.documentElement.setAttribute('data-theme', theme)
-			current_theme = theme
+			const one_year = 60 * 60 * 24 * 365;
+			window.localStorage.setItem('theme', theme);
+			document.cookie = `theme=${theme}; max-age=${one_year}; path=/; SameSite=Lax`;
+			document.documentElement.setAttribute('data-theme', theme);
+			current_theme = theme;
 		}
 	}
 </script>

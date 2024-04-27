@@ -1,9 +1,9 @@
-<script>
-	import '../app.postcss'
+<script lang="ts">
+	import '../app.pcss';
 </script>
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-	<div class="max-w-3xl mx-auto prose md:prose-lg lg:prose-xl">
+<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+	<div class="prose mx-auto max-w-3xl md:prose-lg lg:prose-xl">
 		<main>
 			<slot />
 		</main>

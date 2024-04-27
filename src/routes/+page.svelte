@@ -1,5 +1,5 @@
 <script>
-	import ThemeSelect from '$lib/theme-select.svelte'
+	import ThemeSelect from '$lib/theme-select.svelte';
 </script>
 
 <h1>SvelteKit Theme Switch</h1>
