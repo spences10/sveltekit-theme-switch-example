@@ -43,7 +43,7 @@ devDependencies:
     version: 9.1.0(eslint@9.4.0)
   eslint-plugin-svelte:
     specifier: ^2.39.0
-    version: 2.39.0(eslint@9.4.0)(svelte@5.0.0-next.152)
+    version: 2.39.2(eslint@9.4.0)(svelte@5.0.0-next.152)
   postcss:
     specifier: ^8.4.38
     version: 8.4.38
@@ -1295,8 +1295,8 @@ packages:
       eslint: 9.4.0
     dev: true
 
-  /eslint-plugin-svelte@2.39.0(eslint@9.4.0)(svelte@5.0.0-next.152):
-    resolution: {integrity: sha512-FXktBLXsrxbA+6ZvJK2z/sQOrUKyzSg3fNWK5h0reSCjr2fjAsc9ai/s/JvSl4Hgvz3nYVtTIMwarZH5RcB7BA==}
+  /eslint-plugin-svelte@2.39.2(eslint@9.4.0)(svelte@5.0.0-next.152):
+    resolution: {integrity: sha512-liJMHhWnNqnimPpw0lSKiG/fQXla+ySp0NjXirB6l9A9LrBY2AjUfL0HMKkBEil5PaFn5F2rp6EqW85NDjRdSA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0-0 || ^9.0.0-0
@@ -1307,7 +1307,6 @@ packages:
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.4.0)
       '@jridgewell/sourcemap-codec': 1.4.15
-      debug: 4.3.5
       eslint: 9.4.0
       eslint-compat-utils: 0.5.1(eslint@9.4.0)
       esutils: 2.0.3
@@ -1320,7 +1319,6 @@ packages:
       svelte: 5.0.0-next.152
       svelte-eslint-parser: 0.36.0(svelte@5.0.0-next.152)
     transitivePeerDependencies:
-      - supports-color
       - ts-node
     dev: true
 
@@ -2200,7 +2198,7 @@ packages:
     dependencies:
       lilconfig: 3.1.1
       postcss: 8.4.38
-      yaml: 2.4.3
+      yaml: 2.4.5
     dev: true
 
   /postcss-load-config@6.0.1(postcss@8.4.38):
@@ -3051,8 +3049,8 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  /yaml@2.4.3:
-    resolution: {integrity: sha512-sntgmxj8o7DE7g/Qi60cqpLBA3HG3STcDA0kO+WfB05jEKhZMbY7umNm2rBpQvsmZ16/lPXCJGW2672dgOUkrg==}
+  /yaml@2.4.5:
+    resolution: {integrity: sha512-aBx2bnqDzVOyNKfsysjA2ms5ZlnjSAW2eG3/L5G/CSujfjLJTJsEw1bGw8kCf04KodQWk1pxlGnZ56CRxiawmg==}
     engines: {node: '>= 14'}
     hasBin: true
     dev: true
