@@ -2,7 +2,7 @@
 config information in this GitHub issue 
 https://github.com/tailwindlabs/tailwindcss-typography/issues/372
 */
-@import "tailwindcss";
+@import 'tailwindcss';
 @plugin "@tailwindcss/typography";
 @plugin "daisyui" {
 	themes: all;
